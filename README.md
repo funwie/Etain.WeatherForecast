@@ -7,9 +7,9 @@
 
 This a quick solution. More improvements can be made before it's considered ready for production: Some are
 
-- More Unit Testing
-- Adding input field for uses to enter the location to get the weather for
+- Add input field for users to enter the location to get the weather
 - Improve the User Experience
 - Switch to standard database
-- Refactor and re design the app well
+- Refactor and re-design the app well to use appropriate patterns
+- Add unit tests to cover more cases
 
