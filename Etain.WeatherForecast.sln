@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{812EFF50-CE51-4607-B956-429F4F2ED5B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6BA3673D-33F8-4A70-A660-B144ED51D2AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Etain.WeatherForecast.Domain", "Etain.WeatherForecast.Domain\Etain.WeatherForecast.Domain.csproj", "{53883159-F578-45AA-8263-44CCACF7FA52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Etain.WeatherForecast.Web", "Etain.WeatherForecast.Web\Etain.WeatherForecast.Web.csproj", "{FEEB22A1-5F8F-4417-AF1F-AB3135804E2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Etain.WeatherForecast.Infrastructure", "Etain.WeatherForecast.Infrastructure\Etain.WeatherForecast.Infrastructure.csproj", "{9E3A6AD6-4285-4531-ABA4-C1D058639029}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{797E7214-F2BB-448D-8DED-070432929F1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Etain.WeatherForecast.WeatherService", "Etain.WeatherForecast.WeatherService\Etain.WeatherForecast.WeatherService.csproj", "{852DA0F2-8970-4723-B57F-60A36F52A60F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etain.WeatherForecast.WeatherService.Tests", "Etain.WeatherForecast.WeatherService.Tests\Etain.WeatherForecast.WeatherService.Tests.csproj", "{4F573B1E-A025-4E55-827B-866B26CC99DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etain.WeatherForecast.Web.Tests", "Etain.WeatherForecast.Web.Tests\Etain.WeatherForecast.Web.Tests.csproj", "{EC888B43-7F9D-4623-8111-5F7C5E6A791D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{615B2F8E-8F5B-4042-8329-64FA0581FA4A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53883159-F578-45AA-8263-44CCACF7FA52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53883159-F578-45AA-8263-44CCACF7FA52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53883159-F578-45AA-8263-44CCACF7FA52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53883159-F578-45AA-8263-44CCACF7FA52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEEB22A1-5F8F-4417-AF1F-AB3135804E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEEB22A1-5F8F-4417-AF1F-AB3135804E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEEB22A1-5F8F-4417-AF1F-AB3135804E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEEB22A1-5F8F-4417-AF1F-AB3135804E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E3A6AD6-4285-4531-ABA4-C1D058639029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3A6AD6-4285-4531-ABA4-C1D058639029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3A6AD6-4285-4531-ABA4-C1D058639029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E3A6AD6-4285-4531-ABA4-C1D058639029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{852DA0F2-8970-4723-B57F-60A36F52A60F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{852DA0F2-8970-4723-B57F-60A36F52A60F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{852DA0F2-8970-4723-B57F-60A36F52A60F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{852DA0F2-8970-4723-B57F-60A36F52A60F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F573B1E-A025-4E55-827B-866B26CC99DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F573B1E-A025-4E55-827B-866B26CC99DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F573B1E-A025-4E55-827B-866B26CC99DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F573B1E-A025-4E55-827B-866B26CC99DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC888B43-7F9D-4623-8111-5F7C5E6A791D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC888B43-7F9D-4623-8111-5F7C5E6A791D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC888B43-7F9D-4623-8111-5F7C5E6A791D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC888B43-7F9D-4623-8111-5F7C5E6A791D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53883159-F578-45AA-8263-44CCACF7FA52} = {812EFF50-CE51-4607-B956-429F4F2ED5B9}
+		{FEEB22A1-5F8F-4417-AF1F-AB3135804E2E} = {812EFF50-CE51-4607-B956-429F4F2ED5B9}
+		{9E3A6AD6-4285-4531-ABA4-C1D058639029} = {812EFF50-CE51-4607-B956-429F4F2ED5B9}
+		{797E7214-F2BB-448D-8DED-070432929F1E} = {812EFF50-CE51-4607-B956-429F4F2ED5B9}
+		{852DA0F2-8970-4723-B57F-60A36F52A60F} = {797E7214-F2BB-448D-8DED-070432929F1E}
+		{4F573B1E-A025-4E55-827B-866B26CC99DC} = {6BA3673D-33F8-4A70-A660-B144ED51D2AA}
+		{EC888B43-7F9D-4623-8111-5F7C5E6A791D} = {6BA3673D-33F8-4A70-A660-B144ED51D2AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B63C88FE-1C2A-4BF8-9CC1-FEF75AC260AB}
+	EndGlobalSection
+EndGlobal
