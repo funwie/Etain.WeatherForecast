@@ -17,7 +17,6 @@ namespace Etain.WeatherForecast.WeatherService.Tests
         [TestMethod]
         public void GetWeatherForecastsForLocation_Calls_WebAPIClient_GetResourceAsync()
         {
-            var httpClient = Mock<WebAPIClient>();
 
         }
     }
